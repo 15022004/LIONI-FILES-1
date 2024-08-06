@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEONI</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="logo">LEONI</p>
+    </div>
+    <div class="header1" >
+      <div>
+        <button onclick="afficher('fenetre')" >Acceuil</button>
+      </div>
+      <div>
+        <ul id="fenetre">
+          <a href=""><li>Acceuil</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="header1">
+      <div>
+        <button  onclick="afficher('fenetre1')" >D&D</button>
+      </div>
+      <div>
+        <ul id="fenetre1">
+          <a href=""><li>Organigramme</li></a>
+          <a href=""><li>EC2</li></a>
+          <a href=""><li>Objectifs</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="header2">
+      <img src="img/chercher.png" class="image1" alt="">
+      <input type="text" placeholder="search">
+    </div>
+    <div class="header1">
+      <div >
+        <button class="menu" onclick="afficher('fenetre2')">
+          <img src="img/menu.png" alt="" class="image2" >
+        </button>
+      </div>
+      <div >
+        <ul id="fenetre2" class="ul-menu">
+          <a href="" class="a-menu"
+          ><li>Acceuil</li></a>
+          <a href="" class="a-menu"><li>Objectifs</li></a>
+          <a href="" class="a-menu"><li>Yassine Docs</li></a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <script src="app.js">
+
+  </script>
+</body>
+</html>
